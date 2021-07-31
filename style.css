@@ -1,0 +1,50 @@
+body {
+    background-color: lightskyblue;
+
+}
+
+
+
+:root {
+
+
+
+}
+
+main> h2 { 
+    
+    color: navy;
+    font-size: 50px;
+
+
+}
+
+
+header {
+        background-color: lightgrey;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:navy;
+    padding-bottom: 10px;
+    border-bottom: 10px solid navy;
+
+} 
+
+li {
+
+    border-bottom: 5px solid navy;
+}
+
+
+h1 {
+
+font-size: 75px;
+font-family:Verdana, Geneva, Tahoma, sans-serif ;
+padding-top: 10px;
+}
