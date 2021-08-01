@@ -1,50 +1,73 @@
+
 body {
-    background-color: lightskyblue;
-
-}
-
-
-
-:root {
-
-
-
-}
-
-main> h2 { 
-    
-    color: navy;
-    font-size: 50px;
-
+    background-color:lightgrey;
+   
 
 }
 
 
 header {
-        background-color: lightgrey;
+        background-image: url(BYG-Background.png);
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+}
+nav{
+
+    font-size: 40px;
+    background-color: hotpink;
+   
+}
+ nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: space-around;
+   text-decoration: underline;
+    
+ 
+ }
+nav ul li:hover {
+    background-color: thistle;
+    color:green;
+    
 }
 
-ul {
+
+header> h1 {
+
+    font-size: 75px;
+    font-weight: bold;
+}
+
+
+.about> p {
+
+    font-size: 20px;
+    color: navy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: ;
+
+}
+
+.work> h2 {
+
     display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    font-size: 25px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:navy;
-    padding-bottom: 10px;
-    border-bottom: 10px solid navy;
+    color: navy;
+    font-size: 35px;
 
-} 
-
-li {
-
-    border-bottom: 5px solid navy;
 }
 
+.contact> h1 {
 
-h1 {
-
-font-size: 75px;
-font-family:Verdana, Geneva, Tahoma, sans-serif ;
-padding-top: 10px;
+    display: flex;
+    color: navy;
+    font-size: 35px;
 }
+
+.about> h2 { 
+    
+    display: flex;
+    color: navy;
+    font-size: 35px;
