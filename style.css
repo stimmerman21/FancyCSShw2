@@ -7,10 +7,12 @@ body {
 
 
 header {
-        background-image: url(BYG-Background.png);
-        background-position: center;
-        background-attachment: fixed;
+        background-image: url(Blue-background.jpg);
+        background-size: cover;
         background-repeat: no-repeat;
+        height: 25vh;
+        background-attachment: fixed;
+        background-color: lightskyblue;
 }
 nav{
 
@@ -59,12 +61,23 @@ header> h1 {
 
 }
 
+.contact div {
+
+    list-style-type: none;
+
+
+
+}
+
+
 .contact> h1 {
 
     display: flex;
     color: navy;
     font-size: 35px;
 }
+
+
 
 .about> h2 { 
     
