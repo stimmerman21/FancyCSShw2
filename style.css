@@ -1,6 +1,6 @@
 
 body {
-    background-color:white;
+    background-color: rgb(167, 166, 166)
    
 
 }
@@ -118,5 +118,47 @@ main .about {
     width: 50%;
     position: relative;
     margin-left: 300px;
-    
+    margin-top: 40px;
 }   
+
+.image1 {
+
+    width: 30%;
+}
+
+.image2 {
+
+    width: 30%;
+}
+
+
+.projects .image1 {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 10px solid rgb(0, 0, 0);
+    width: 50%;
+    margin-left: 150px;
+    position: relative;
+    margin-top: 40px;
+}
+
+.projects .image2 {
+    
+    border: 10px solid rgb(0, 0, 0);
+    width: 35%;
+    position: relative;
+    margin-left: 700px;
+    margin-top: 40px;
+}
+
+.projects .image3 {
+    display: flex;
+    flex-wrap: wrap;
+    border: 10px solid rgb(0, 0, 0);
+    width: 20%;
+    position: relative;
+    margin-left: 1200px;
+    margin-top: 40px;
+}
