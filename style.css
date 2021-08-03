@@ -14,26 +14,37 @@ header {
         background-attachment: fixed;
         background-color: lightskyblue;
         background-position: 0px;
+        width: 100%;
 }
 nav{
 
-    font-size: 40px;
-    background-color: rgb(126, 126, 126);
+    font-size: 30px;
+    background-color: rgb(0, 0, 0);
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
 }
- nav ul {
+  nav ul {
    list-style-type: none;
    display: flex;   
    justify-content: flex-end;
-   text-decoration: underline;
-   color: rgb(13, 53, 117);
    
+
+  }
    
- 
+   nav ul li a { 
+
+    color: rgb(255, 255, 255);
+    
+
+
  }
+   
+
 nav ul li:hover {
-    background-color: thistle;
-    color:green;
+    background-color: rgb(73, 68, 73);
+    
     
 
 }
@@ -57,7 +68,8 @@ header h2 {
         color: white;
         font-size: 30px;
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
+        margin-right: 10%;
         
 
 }
@@ -68,19 +80,22 @@ header h2 {
     color: navy;
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: inline-block;
-    border-bottom: green;
+    border-bottom: white;
 }
 
 .projects h2 {
 
     display: flex;
     color: navy;
-    font-size: 35px;
+    font-size: 50px;
+    margin-left: 540px;
+    border-bottom: 5px solid lightskyblue;
+    width: 9.1%;
 
 }
 
 
-.contact h1 {
+.contact h2 {
 
     display: flex;
     color: navy;
@@ -99,7 +114,7 @@ header h2 {
 .contact ul {
     list-style-type: none;
     display: flex;   
-    justify-content: space-evenly;
+    justify-content: space-around;
     color: rgb(18, 55, 114);
     font-size: 30px;
     text-decoration: underline;
@@ -116,49 +131,91 @@ main .about {
     justify-content: center;
     border: 10px solid rgb(45, 97, 161);
     width: 50%;
+    height: 40vh;
     position: relative;
-    margin-left: 300px;
-    margin-top: 40px;
+    margin-left: 40%;
+    margin-top: 10%;
 }   
 
-.image1 {
 
-    width: 30%;
-}
+.projects .image1{
 
-.image2 {
-
-    width: 30%;
-}
-
-
-.projects .image1 {
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    background: url(image1.jpg) no-repeat center;
+    color: white;
+    font-size: 40px;
     border: 10px solid rgb(0, 0, 0);
     width: 50%;
+    height: 300px;
     margin-left: 150px;
     position: relative;
     margin-top: 40px;
+    
 }
 
 .projects .image2 {
-    
+
+    background: url(image2.jpg) no-repeat center;
+    color:white;
+    font-size: 40px;
+    text-align: center;
     border: 10px solid rgb(0, 0, 0);
-    width: 35%;
+    width: 40%;
+    height: 300px;
     position: relative;
     margin-left: 700px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .projects .image3 {
-    display: flex;
-    flex-wrap: wrap;
+
+    background: url(image3.jpg) no-repeat center;
+    color: white;
+    font-size: 40px;
+    text-align: center;
     border: 10px solid rgb(0, 0, 0);
-    width: 20%;
+    width: 25%;
+    height: 300px;
     position: relative;
     margin-left: 1200px;
     margin-top: 40px;
+}
+
+.resume h2 {
+
+    font-size: 50px;
+    color: navy;
+    margin-left: 30%;
+    display: flex;
+    border-bottom: 5px solid lightskyblue;
+    width: 9.1%;
+}
+
+header .avatar{
+
+   width: 20%;
+   margin-left: 5%;
+   margin-top: 5%;
+}
+
+.image1 div {
+
+    margin-top: 250px;
+    margin-left: 150px;
+    text-align: left;
+
+}
+
+.image2 div {
+
+    margin-top: 250px;
+    margin-left: 150px;
+    text-align: left;
+
+}
+
+.image3 div {
+
+    margin-top: 250px;
+    margin-left: 150px;
+    text-align: left;
 }
