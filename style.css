@@ -1,50 +1,68 @@
 
 body {
-    background-color:lightgrey;
+    background-color:white;
    
 
 }
 
 
 header {
-        background-image: url(Blue-background.jpg);
+        background-image: url(blue-header.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         height: 25vh;
         background-attachment: fixed;
         background-color: lightskyblue;
+        background-position: 0px;
 }
 nav{
 
     font-size: 40px;
-    background-color: hotpink;
-   
+    background-color: rgb(126, 126, 126);
+    width: 100%;
 }
  nav ul {
    list-style-type: none;
-   margin: 0;
-   padding: 0;
-   display: flex;
-   justify-content: space-around;
+   display: flex;   
+   justify-content: flex-end;
    text-decoration: underline;
-    
+   color: rgb(18, 55, 114);
+   
+   
  
  }
 nav ul li:hover {
     background-color: thistle;
     color:green;
     
+
 }
 
+ul li span {
 
-header> h1 {
+margin-right: 40px;
+
+
+}
+
+header h1 {
 
     font-size: 75px;
     font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+header h2 {
+        color: white;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        margin-right: ;
 
-.about> p {
+}
+
+.about p {
 
     font-size: 20px;
     color: navy;
@@ -53,7 +71,7 @@ header> h1 {
 
 }
 
-.work> h2 {
+.projects h2 {
 
     display: flex;
     color: navy;
@@ -61,16 +79,8 @@ header> h1 {
 
 }
 
-.contact div {
 
-    list-style-type: none;
-
-
-
-}
-
-
-.contact> h1 {
+.contact h1 {
 
     display: flex;
     color: navy;
@@ -79,8 +89,23 @@ header> h1 {
 
 
 
-.about> h2 { 
+.about h2 { 
     
     display: flex;
     color: navy;
     font-size: 35px;
+}
+
+.contact ul {
+    list-style-type: none;
+    display: flex;   
+    justify-content: space-evenly;
+    color: rgb(18, 55, 114);
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.contact ul span {
+
+    margin: 40px;
+}
