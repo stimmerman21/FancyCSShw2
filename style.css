@@ -7,6 +7,7 @@ body {
 
 
 header {
+        
         background-image: url(blue-header.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -17,7 +18,7 @@ header {
         width: 100%;
 }
 nav{
-
+    
     font-size: 30px;
     background-color: rgb(0, 0, 0);
     width: 100%;
@@ -91,9 +92,10 @@ header h2 {
     display: flex;
     color: navy;
     font-size: 50px;
-    margin-left: 540px;
+    margin-left: 200px;
+    margin-top: 5%;
     border-bottom: 5px solid lightskyblue;
-    width: 9.1%;
+    width: 12.6%;
 
 }
 
@@ -184,9 +186,10 @@ main .about {
 
     font-size: 75px;
     color: navy;
-    margin-left: 30%;
+    margin-left: 10%;
     display: flex;
-    width: 13.5%;
+    justify-content: center;
+    width: 80%;
     padding: 20px;
     border: 3px solid lightskyblue;
 }
@@ -242,3 +245,16 @@ a {
    margin-left: 26%;
     
 }
+
+
+
+@media screen and (max-width: 600px) {
+     body,
+     nav {
+       
+       flex-direction: block;
+
+    }
+
+}
+
