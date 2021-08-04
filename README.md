@@ -5,3 +5,10 @@ This assignment was to gain an overall grasp of the inner workings of CSS. Multi
 
 For my portfolio page I truly focused in on repition and making sure I am solid with the content. Ive added multiple things like images, links, and design. I definitley stepped outside of my comfort zone and added some new stuff.
 
+Website URL:
+
+ https://stimmerman21.github.io/FancyCSShw2/
+
+![Screenshot](screenshothw2.png)
+
+
